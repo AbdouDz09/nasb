@@ -135,7 +135,7 @@ client.on("guildMemberAdd", member => {
         ي بعد عيني الرابط تحت
          Spring SERVER
 
-                                 [ رابط سيرفرك ] **`)
+                                 [ https://discord.gg/Un29Wvs ] **`)
 }).catch(console.error)
 });
 
@@ -147,29 +147,10 @@ client.on("guildMemberRemove", member => {
         ي بعد عيني الرابط تحت
          Spring SERVER
 
-                                 [ رابط سيرفرك ] **`)
+                                 [ https://discord.gg/Un29Wvs ] **`)
 }).catch(console.error)
 });
 
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`dz!help music ,`,"http://twitch.tv/abdoufersaoui_dz")
-client.user.setStatus("Dz")
-});client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : Abdou_DZ`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : abdou-DZ ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`*help | Rs 4 ever,` "http://twitch.tv/abdoufersaoui_dz")
-client.user.setStatus("Dz")
-});
 
 
 client.login(process.env.TOKEN);
